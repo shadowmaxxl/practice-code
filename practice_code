@@ -1,0 +1,9 @@
+birth_year = input('Please Enter Your Birth year: ')
+age = 2023 - int(birth_year)
+if age < 18:
+    print("you are not old enough!")
+if age >= 18:
+    print("you are old enough to drink!")     
+else:    
+    name = input('what is your name? ')
+    print('Hi ' + name + ' i had enough of your fucking bullshit im stealing your bank account! ')

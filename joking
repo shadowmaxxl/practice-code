@@ -1,0 +1,36 @@
+song = input("Please enter the name of a song (or press Enter to skip):") or None
+
+print('You chose: ' + song)
+while song is True:
+    your_name = song
+your_name = input('enter your name please: ')
+print('hello ' + your_name + ' we wanted to give you a call about your cars extended warranty! ')
+
+# now  i am going put some code in line 10 that will be inputs and loop
+gender = input('what is your gender? ')
+def get_gender(gender):
+    if gender.lower() == 'm':
+        return 'male'
+    elif gender.lower() == 'f':
+        return 'female'
+    else:
+        return 'unknown'
+
+user_gender = get_gender(gender)
+
+if gender.lower() == 'male':
+    print('you are straighter than a pencil! ')
+
+if gender.lower() == 'female':
+    print('you will forever catch and stay submissive night & day!')
+name = input('what is your name? ')    
+print("welcome, " + name + "! you are already gay")
+
+
+
+
+
+
+
+
+

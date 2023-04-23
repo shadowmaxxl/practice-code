@@ -1,0 +1,6 @@
+song = input('name that shitty tune: ')
+print(song)
+while song is True:
+    your_name = song
+your_name = input('enter your name please: ')
+print('hello ' + your_name + ' we wanted to give you a call about your cars extended warranty! ')
