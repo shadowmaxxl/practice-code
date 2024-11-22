@@ -1,0 +1,13 @@
+import sys
+import time
+
+def loading_screen():
+    animation = str("\|--/\/\//\\-/-\-/\-/\\-|/-\|")
+
+    for i in range(100):
+        time.sleep(0.1)
+        sys.stdout.write("\r" + animation[i % len(animation)] + " " * (10 - len(animation[i % len(animation)]) - len(str(i))) + str(i) + "*")
+        sys.stdout.flush()
+
+# Call the function to display the loading screen
+loading_screen()
